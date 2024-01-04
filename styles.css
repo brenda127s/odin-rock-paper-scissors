@@ -1,5 +1,5 @@
 html {
-    background: #a8a0e259;
+    background: #e7c7eead;
 }
 /* fit to page */
 .flex {
@@ -13,7 +13,7 @@ html {
 }
 /* heading */
 h1 {
-    color: rgb(70, 13, 9);
+    color: rgb(8, 44, 73);
     font-family: Impact, Charcoal, sans-serif;
     font-size: 75px;
     margin: 20px;
@@ -22,14 +22,14 @@ h1 {
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    color: #86273c;
+    color: #274586;
     margin: 20px;
 }
 
 h3 {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 40px;
-    color: #af3636;
+    color: #366eaf;
     margin-top: 20px;
     margin-bottom: 20px
 }
@@ -68,8 +68,8 @@ h3 {
 /* buttons */
 
 .optionBtn button {
-    background-color: #d45069;
-    border: 4px solid #5f0b3d;
+    background-color: #95acf8;
+    border: 4px solid #0b325f;
     width: 150px;
     height: 50px;
     font-size: 30px;
@@ -82,7 +82,36 @@ h3 {
     width: 120px;
     height: 40px;
     margin-top: 20px;
-    background-color: #5f0b3d;
-    color: #d45069;
+    background-color: #95acf8;
+    color: #0b325f;
     font-size: 20px;
+}
+
+/* label */
+
+#resultsLabel {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0b325f;
+    padding-left: 15px;
+}
+
+#playerLabel {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0b325f;
+}
+
+#compLabel {
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0b325f;
+    padding-left: 18px;
+    padding-right: 3px;
 }
